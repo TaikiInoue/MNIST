@@ -10,3 +10,4 @@ typing
 black
 flake8
 mypy
+python-mnist

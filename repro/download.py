@@ -15,7 +15,7 @@ def main():
     shutil.rmtree("/mlflow/data/dataset/images", ignore_errors=True)
 
     os.mkdir("/mlflow/data/raw_dataset")
-    os.mkdir("/mlflow/data/dataset/images")
+    os.makedirs("/mlflow/data/dataset/images", exist_ok=True)
 
     torchvision.datasets.MNIST("/mlflow/data", train=True, download=True)
     os.rename("/mlflow/data/MNIST/raw", "/mlflow/data/raw_dataset")

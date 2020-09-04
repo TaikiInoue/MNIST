@@ -1,0 +1,3 @@
+outs:
+- md5: 27ae3e4e09519cfbb04c329615203637
+  path: t10k-labels-idx1-ubyte
