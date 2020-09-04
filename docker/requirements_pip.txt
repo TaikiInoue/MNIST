@@ -1,0 +1,12 @@
+numpy
+opencv-python-headless
+pandas
+Pillow
+PyYAML
+scikit-learn
+scipy
+tqdm
+typing
+black
+flake8
+mypy
