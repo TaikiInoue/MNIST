@@ -11,3 +11,9 @@ docker_run:
 			--hostname mnist-docker \
 			mnist:latest \
 			/bin/bash
+
+dvc_repro:
+		dvc run -n download \
+				-d /mlflow/data/repro/download.py \
+				-o /mlflow/data/dataset/images \
+				python /mlflow/data/repro/download.py

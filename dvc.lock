@@ -1,0 +1,8 @@
+download:
+  cmd: python /mlflow/data/repro/download.py
+  deps:
+  - path: repro/download.py
+    md5: 99b6d297a64426304ac00a618771467e
+  outs:
+  - path: dataset/images
+    md5: f57ae6ae705b713f2e69d776b37e788f.dir

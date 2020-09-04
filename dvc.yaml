@@ -1,0 +1,7 @@
+stages:
+  download:
+    cmd: python /mlflow/data/repro/download.py
+    deps:
+    - repro/download.py
+    outs:
+    - dataset/images
