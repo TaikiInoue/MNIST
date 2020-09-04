@@ -24,7 +24,7 @@ def main():
     imgs, labels = dataset.load_training()
     imgs = np.array(imgs)
 
-    data_num = 30000
+    data_num = 60000
     for i in tqdm(range(data_num)):
         img = imgs[i].reshape(28, 28, 1)
         label = labels[i]
